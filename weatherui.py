@@ -87,7 +87,7 @@ class UI(customtkinter.CTk):
 
         # =============Main weather icon frame and object loading================#
 
-        #Create frame for location name 
+        #Create frame for location name
         self.frameLocName = customtkinter.CTkFrame(master=self.frameSide, fg_color="transparent")
         self.frameLocName.pack(side="top", anchor="center", pady=(10,0))
         self.locNameLabel = customtkinter.CTkLabel(master=self.frameLocName, fg_color="transparent", font=("Seoge UI",14, 'bold'), text="")
@@ -255,7 +255,7 @@ class UI(customtkinter.CTk):
         self.weatherTemp.configure(text=f"Temperature \n{curr_weather_data['temperature']['current']}°C")
 
         #Instert Humidity Data into frame.
-        self.HumidityIcon = customtkinter.CTkImage(light_image=Image.open(r"C:\Users\derst\Desktop\ERGASIES EAP\PyProjects\WeatherProject\icons\humid.png"),size=(50,50))
+        self.HumidityIcon = customtkinter.CTkImage(light_image=Image.open(r".\icons\humid.png"),size=(50,50))
         self.weatherHumidityData.configure(text=(f"{curr_weather_data['humidity']}% Humidity "))
         self.weatherHumidityData.pack_configure(side="left", anchor="center")
         self.weatherHumidFrame.configure(image=self.HumidityIcon)
@@ -350,7 +350,7 @@ class UI(customtkinter.CTk):
                                            text=f"Temperature\n{entry['temperature']['current']}°C"))
             getattr(self, forecast_temp_name).pack(side="top", anchor="n")
             setattr(self, forecast_humidity_icon_name, customtkinter.CTkImage(light_image=Image.open(
-                r"C:\Users\derst\Desktop\ERGASIES EAP\PyProjects\WeatherProject\icons\humid.png"),
+                r".\icons\humid.png"),
                                                                               size=(50, 20)))
             setattr(self, forecast_humidity_frame_name,
                     customtkinter.CTkFrame(master=getattr(self, populant_frame_name), fg_color="transparent",
