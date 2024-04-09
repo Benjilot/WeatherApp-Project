@@ -21,7 +21,7 @@ Placeholder
 ## Credits
 Weather data provided by [OpenWeather](https://openweathermap.org/).
 
-## Changelog
+## [Changelog](https://github.com/Benjilot/HOU-WeatherApp-Project-Personal/blob/main/CHANGELOG.md)
 
 ## License
 
