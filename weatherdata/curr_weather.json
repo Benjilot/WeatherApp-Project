@@ -1,0 +1,15 @@
+{
+    "location": "Mihal\u0131\u00e7\u00e7\u0131k",
+    "status": "Clouds",
+    "icon": "04d",
+    "temperature": {
+        "current": 17
+    },
+    "humidity": 57,
+    "wind": {
+        "speed": 4.56,
+        "direction": "WNW"
+    },
+    "sunrise": "06:25",
+    "sunset": "19:26"
+}
