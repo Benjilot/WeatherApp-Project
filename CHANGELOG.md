@@ -64,5 +64,7 @@ Makes a json file name forecast_weahter.json and exports requested data into it.
 1. Refined the overall alignment and look of the UI so that it doesn't look as bad as it was before. Made sure everything works and looks good after giving coordinates and requesting data a lot times.
 
 
+## 09/04/2024
 
+1. Changed the absolute path of the humid.png into a relative one in the weatherui.py file.
 
