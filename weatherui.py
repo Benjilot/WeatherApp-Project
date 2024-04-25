@@ -122,7 +122,6 @@ class UI(customtkinter.CTk):
         self.weatherHumidityFrame.pack(side="top", anchor="center")
 
         # #Instert Humidity Data into frame.
-        # self.HumidityIcon = customtkinter.CTkImage(light_image=Image.open(r"C:\Users\derst\Desktop\ERGASIES EAP\PyProjects\WeatherProject\icons\humid.png"),size=(50,50))
         self.weatherHumidityData = customtkinter.CTkLabel(master=self.weatherHumidityFrame, fg_color="transparent", font=("Seoge UI", 12), text=(""))
         self.weatherHumidityData.pack(side="left", anchor="center",padx=(15,0))
         self.weatherHumidFrame = customtkinter.CTkLabel(master=self.weatherHumidityFrame, fg_color="transparent", text="")
